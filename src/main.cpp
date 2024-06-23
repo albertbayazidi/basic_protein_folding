@@ -11,11 +11,11 @@
 int main (void){
 	printf ("Chosen seed = %lu\n", gsl_rng_default_seed);
 
-	int sizeXY[2] = {50,50}; 	
-	int nrMonomers = 15; 		
+	int sizeXY[2] = {100,100}; 	
+	int nrMonomers = 100; 		
 	int folded = 1;				// 1 = folded, 0 = unfolded
 	int T = 10;					// Temperature
-	int X = 100;				// nr of MC steps
+	int X = 40;				// nr of MC steps
 
 	//char MainSim[150] = "_misc/data/monte_carlo_sim/task_2.5/main_sim/Protein2D.txt";
 

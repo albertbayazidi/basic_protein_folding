@@ -39,15 +39,15 @@ path = 'data/monte_carlo_sim/task_2.5/main_sim/Protein2D.txt'
 nr_mc_steps, nr_mc_sweeps, Koords_tensor, AminoAcid_matrix, NN_tensor, EndToEndDistanceArray, Energy_array = ReadLogger2D(path)
 
 # %% make images
-if nr_mc_steps*nr_mc_sweeps > 3000:
+if nr_mc_steps*nr_mc_sweeps > 5000:
     print('To many images')
 else:
     png_path = "data/png/image"
-    make_images_Protein2d(nr_mc_steps, nr_mc_sweeps, Koords_tensor, NN_tensor, png_path,skip = size, sizeX = [7,15], sizeY = [28,34])   
+    make_images_Protein2d(nr_mc_steps, nr_mc_sweeps, Koords_tensor, NN_tensor, png_path,skip = size, sizeX = [50,65], sizeY = [75,93])   
 
 #%% Animate
 
-if nr_mc_steps*nr_mc_sweeps > 2000:
+if nr_mc_steps*nr_mc_sweeps > 5000:
     print('To many images to create a gif')
 else:
     gif_path = "data/monte_carlo_sim/task_2.5/gif/main_sim.gif"
