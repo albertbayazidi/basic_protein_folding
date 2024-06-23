@@ -1,4 +1,4 @@
-# basic protein folding
+# Basic protein folding
 
 This repository offers a straightforward object-oriented program for folding chains of monomers. It delivers fast results and can animate the results using a python program. 
 
