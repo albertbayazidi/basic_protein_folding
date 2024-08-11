@@ -7,7 +7,7 @@ This repository offers a straightforward object-oriented program for folding cha
 In this repository, you will find:
 - Animations
 - Pictures
-- OOP strucre for folding
+- OOP structure for folding
 - Python code for animating all the nearest neighbor interactions
 
 ## Running the code
